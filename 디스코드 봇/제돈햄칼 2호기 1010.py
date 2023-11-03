@@ -79,8 +79,6 @@ warnings.filterwarnings(action='ignore') # FutureWarning 경고문 생략하기 
 # model = joblib.load(model_path + 'rf_final.pickle')
 # alexa_10k = pd.read_csv(alexa_path + 'cloudflare-radar-domains-top-100000-20230821-20230828 - 복사본.csv')
 
-TOKEN = 'ATE0NDg0NTEyNjc4NzY3ODI3OQ.GCtMpQ.dk04tvu2WZEzeH8aZjxxkR2cTlZI09Eqn9DleM'
-TOKEN = TOKEN[-1] + TOKEN[1:-1] + TOKEN[0]
 
 CHANNEL_ID = '1143560639550341233'
 
@@ -427,4 +425,4 @@ async def on_message(message): # 채널의 채팅에 대한 함수
 
 
 
-client.run(TOKEN)
+client.run(process.env.TOKEN)
