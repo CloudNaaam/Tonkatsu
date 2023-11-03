@@ -17,13 +17,13 @@ import socket
 
 warnings.filterwarnings(action='ignore') # FutureWarning 경고문 생략하기 위함. (아마 sklearn 버전 때문에 그런듯)
 
-alexa_path = 'https://github.com/CloudNaaam/Tonkatsu_bot/tree/main/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
-model_path = 'https://github.com/CloudNaaam/Tonkatsu_bot/tree/main/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
+alexa_path = 'https://github.com/CloudNaaam/Tonkatsu/tree/master/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
+model_path = 'https://github.com/CloudNaaam/Tonkatsu/tree/master/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
 
 model = joblib.load(model_path + 'rf_final.pickle')
 alexa_10k = pd.read_csv(alexa_path + 'cloudflare-radar-domains-top-100000-20230821-20230828 - 복사본.csv')
 
-TOKEN = 'MTE0NDg0NTEyNjc4NzY3ODI3OQ.Gh4XWx.5_MNkORhqcdlpAiG_MTZlVLI9-E_WiYQcVDWds'
+TOKEN = 'MTE0NDg0NTEyNjc4NzY3ODI3OQ.G2ba6N.o63z2JusrKKpPUhaKLtO0Oj99x2_hMiuZqMdzY'
 CHANNEL_ID = '1143560639550341233'
 
 intents = discord.Intents.default()
