@@ -13,17 +13,73 @@ import tldextract
 from whois.parser import PywhoisError
 from ipwhois import IPWhois
 import socket
+import requests
+import pickle
+from io import StringIO,BytesIO
+
+
+# GitHub Personal Access Token (본인의 토큰으로 대체해야 합니다)
+access_token = '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'
+
+# GitHub API 엔드포인트 및 private 레포지토리의 소유자와 레포지토리 이름을 지정합니다.
+owner = 'CloudNaaam'
+repo = 'Tonkatsu'
+
+# GitHub API URL 생성
+url = f'https://api.github.com/repos/{owner}/{repo}'
+
+# HTTP 요청 헤더 설정 (Personal Access Token을 사용한 인증)
+headers = {
+    'Authorization': f'token {access_token}'
+}
+
+# GitHub API를 사용하여 private 레포지토리에 접근 및 인증
+response = requests.get(url, headers=headers)
+
+if response.status_code == 200:
+    print("GitHub private 레포지토리에 성공적으로 접근 및 인증되었습니다.")
+else:
+    print("GitHub private 레포지토리에 접근 및 인증에 실패했습니다.")
+
+AI_url = 'https://raw.githubusercontent.com/CloudNaaam/Tonkatsu/master/모델 학습/rf_final.pickle'
+Alexa_url = 'https://raw.githubusercontent.com/CloudNaaam/Tonkatsu/master/모델 학습/cloudflare-radar-domains-top-100000-20230821-20230828 - 복사본.csv'
+
+
+AI_response = requests.get(AI_url)
+Alexa_response = requests.get(Alexa_url)
+
+
+if AI_response.status_code == 200:
+    model = joblib.load(BytesIO(AI_response.content))  # 바이트 데이터를 Python 객체로 로드
+    # 이제 'data' 변수에 데이터가 로드되었습니다.
+    print('AI Model data Ready')
+    # data를 사용하거나 처리할 수 있습니다.
+
+else:
+    print("다운로드에 실패했습니다.")
+
+if Alexa_response.status_code == 200:
+    # CSV 파일을 메모리에 로드하고 DataFrame으로 변환
+    print('Alexa dataset Ready')
+    alexa_10k = pd.read_csv(StringIO(Alexa_response.text))
+
+    # 이제 'df'는 CSV 파일의 데이터를 포함하는 Pandas DataFrame입니다.
+    # DataFrame을 사용하여 데이터를 분석, 조작 및 시각화할 수 있습니다.
+
+else:
+    print("다운로드에 실패했습니다.")
+
 
 
 warnings.filterwarnings(action='ignore') # FutureWarning 경고문 생략하기 위함. (아마 sklearn 버전 때문에 그런듯)
 
-alexa_path = 'https://github.com/CloudNaaam/Tonkatsu/tree/master/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
-model_path = 'https://github.com/CloudNaaam/Tonkatsu/tree/master/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
+# alexa_path = 'https://github.com/CloudNaaam/Tonkatsu/tree/master/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
+# model_path = 'https://github.com/CloudNaaam/Tonkatsu/tree/master/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/'
+#
+# model = joblib.load(model_path + 'rf_final.pickle')
+# alexa_10k = pd.read_csv(alexa_path + 'cloudflare-radar-domains-top-100000-20230821-20230828 - 복사본.csv')
 
-model = joblib.load(model_path + 'rf_final.pickle')
-alexa_10k = pd.read_csv(alexa_path + 'cloudflare-radar-domains-top-100000-20230821-20230828 - 복사본.csv')
 
-TOKEN = 'MTE0NDg0NTEyNjc4NzY3ODI3OQ.G2ba6N.o63z2JusrKKpPUhaKLtO0Oj99x2_hMiuZqMdzY'
 CHANNEL_ID = '1143560639550341233'
 
 intents = discord.Intents.default()
@@ -369,4 +425,4 @@ async def on_message(message): # 채널의 채팅에 대한 함수
 
 
 
-client.run(TOKEN)
+client.run(process.env.TOKEN)
