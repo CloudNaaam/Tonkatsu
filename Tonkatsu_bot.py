@@ -16,7 +16,9 @@ import socket
 import requests
 import pickle
 from io import StringIO,BytesIO
+import os
 
+TOKEN = os.environ.get('TOKEN')
 
 # GitHub Personal Access Token (본인의 토큰으로 대체해야 합니다)
 access_token = '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'
@@ -425,6 +427,6 @@ async def on_message(message): # 채널의 채팅에 대한 함수
 
 
 
-client.run(process.env.TOKEN)
+client.run(TOKEN)
 
 
