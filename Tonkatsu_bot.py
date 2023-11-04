@@ -425,8 +425,6 @@ async def on_message(message): # 채널의 채팅에 대한 함수
 
 
 
-<<<<<<<< HEAD:Tonkatsu_bot.py
 client.run(process.env.TOKEN)
-========
-client.run(process.env.TOKEN)
->>>>>>>> 3ff190cfd4053e2963cf49c24611fe0917d0887b:디스코드 봇/Tonkatsu_bot.py
+
+
