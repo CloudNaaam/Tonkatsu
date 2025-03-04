@@ -29,3 +29,7 @@
 2. 전체 파이프라인
 <br>
 <img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
+<br>
+<br>
+3. 기술 스택
+
