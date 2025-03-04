@@ -7,12 +7,12 @@
  
 2. 전체 파이프라인
 3. 기술 스택
-4. 주요 기능
-   
-  - 모델
-       - 데이터셋
-       - 후보 모델
-       - 최종 선정 모델
+4. 모델 선정
+
+   - Feature Engineering
+   - 정확도 분석
+  
+5. 주요 기능
   - 디코봇
        - 정상 돌렸을 때
        - 악성 돌렸을 때
@@ -62,7 +62,15 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 <br>
-4. 주요 기능
+4. 모델 선정
+<br>
+- Feature Engineering
+<img src="https://github.com/user-attachments/assets/da7ce42a-4605-49af-9d5e-1a78a554e30d" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/94e40381-8369-4d8b-b794-ed5ecc70ed9d" width="200" height="200"/>
+<br>
+<br>
+<br>
+5. 주요 기능
 <br>
 - 모델
 <br>
