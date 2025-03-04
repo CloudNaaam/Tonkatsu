@@ -35,4 +35,12 @@
 <br>
 <img src="https://github.com/user-attachments/assets/ff0693ba-bdd3-46e6-bfe6-dadd5933b7a0" width="500" height="400"/>
 <br>
+<br>
+4. 주요 기능
+<br>
+- 모델
+
+
+- 디스코드
+사용자가 채팅에 URL을 올림 -> URL은 디스코드 봇과 연동된 모델이 분류 -> 정상/악성 분류 -> 악성이면 다시 4가지로 분류 -> 기타 정보까지 함께 결과 채팅에 올려줌
 
