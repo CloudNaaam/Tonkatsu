@@ -22,8 +22,5 @@
 | `- Feature Engineering`<br>`- SVM 학습`<br>`- 디스코드 봇 구현`                                                                             | `- Feature Engineering`<br>`- XGB 학습`<br>`- 기술적 피드백`                                                                                | `- Feature Engineering`<br>`- Random Forest 학습`<br>`- 데이터셋 분류&연구`                                                                 | `- Feature Engineering`<br>`- LGBM 학습`                                                                                                    | `- Decision Tree 학습`<br>`- 학습 모델 분류`<br>`- 데이터셋 관리`                                                                           |
 
 
-2. 전체 파이프라인
-<img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
-
 
 
