@@ -83,17 +83,18 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
   </tr>
   <tr>
     <td style="text-align: center;">SVM</td>
-    <td style="text-align: center;">98.63%</td>
+    <td style="text-align: center;">89.63%</td>
   </tr>
   <tr>
     <td style="text-align: center;">Decision Tree</td>
     <td style="text-align: center;">90.23%</td>
   </tr>
-  <tr style="font-weight: bold;">
-    <td style="text-align: center;">Random Forest</td>
-    <td style="text-align: center;">91.63%</td>
+  <tr>
+    <td style="text-align: center;"><b>Random Forest</b></td>
+    <td style="text-align: center;"><b>91.63%</b></td>
   </tr>
 </table>
+
 <br>
 <br>
 - 디스코드
