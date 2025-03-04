@@ -68,32 +68,13 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 * 학습 모델 후보
 <br>
-<table>
-  <tr>
-    <th>학습 모델</th>
-    <th>정확도 (Accuracy)</th>
-  </tr>
-  <tr>
-    <td style="text-align: center;">LGBM</td>
-    <td style="text-align: center;">88.47%</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">XGB</td>
-    <td style="text-align: center;">90.11%</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">SVM</td>
-    <td style="text-align: center;">89.63%</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">Decision Tree</td>
-    <td style="text-align: center;">90.23%</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;"><b>Random Forest</b></td>
-    <td style="text-align: center;"><b>91.63%</b></td>
-  </tr>
-</table>
+|    학습 모델    | 정확도<br><br>Accuracy |
+|:---------------:|:----------------------:|
+|       LGBM      |         88.47%         |
+|       XGB       |         90.11%         |
+|       SVM       |         89.63%         |
+|  Decision Tree  |         90.23%         |
+| 'Random Forest' |        '91.63%'        |
 
 <br>
 <br>
