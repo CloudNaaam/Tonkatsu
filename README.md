@@ -47,7 +47,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 3. 기술 스택
 <br>
-<img src="https://github.com/user-attachments/assets/ff0693ba-bdd3-46e6-bfe6-dadd5933b7a0" width="500" height="400"/>
+<img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
 <br>
 <br>
 4. 주요 기능
