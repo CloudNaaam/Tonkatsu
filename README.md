@@ -12,7 +12,7 @@
 5. 시연 장면
 6. 개선 사항
 
-<small>small</small>
+<small>하이염.</small>
 
 
 프로젝트 소개
