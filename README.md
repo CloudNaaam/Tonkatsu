@@ -75,7 +75,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 5. 시연 장면
 <br>
-[![YouTube Video](https://img.youtube.com/vi/gLWFPLfxF_w/0.jpg)](https://youtu.be/gLWFPLfxF_w)
+[!(https://youtu.be/gLWFPLfxF_w)]
 <br>
 <br>
 6. 개선 사항
