@@ -15,4 +15,4 @@
 프로젝트 소개
 
 팀원
-!<img src="https://github.com/user-attachments/assets/17984ec1-4d16-427e-89ed-ca4e42478b62" width="200" height="400"/>
+!<img src="https://github.com/user-attachments/assets/17984ec1-4d16-427e-89ed-ca4e42478b62" width="100" height="200"/>
