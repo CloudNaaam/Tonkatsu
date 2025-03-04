@@ -78,7 +78,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 5. 시연 장면
 <br>
-![Image](https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84)
+<img src="https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84"/>
 <br>
 <br>
 <br>
