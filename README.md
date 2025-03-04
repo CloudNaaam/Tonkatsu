@@ -12,7 +12,7 @@
 5. 시연 장면
 6. 개선 사항
 
-<span style="font-size: 8px;">10픽셀</span>
+<small>small</small>
 
 
 프로젝트 소개
