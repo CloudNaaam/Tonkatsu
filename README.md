@@ -75,7 +75,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 |        XGB        |         90.11%         |
 |        SVM        |         89.63%         |
 |   Decision Tree   |         90.23%         |
-| **Random Forest** |       **91.63%**       |
+| **__Random Forest__** |       **__91.63%__**       |
 
 <br>
 <br>
