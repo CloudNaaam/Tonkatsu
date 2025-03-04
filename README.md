@@ -19,3 +19,9 @@
 <img src="https://github.com/user-attachments/assets/020342da-9da4-45cf-a756-44d3f102d723" width="100" height="200"/>
 <img src="https://github.com/user-attachments/assets/9fe7ca3b-eeb5-4984-b063-34545cdf2456" width="100" height="200"/>
 <img src="https://github.com/user-attachments/assets/a5e88cbb-4696-461f-978f-edf95d58d054" width="100" height="200"/>
+
+| PL 남정운 | 팀원 정민성 | 팀원 김용범 | 팀원 강승구 | 팀원 한승헌 |
+|-----------|-------------|-------------|-------------|-------------|
+|           |             |             |             |             |
+|           |             |             |             |             |
+|           |             |             |             |             |
