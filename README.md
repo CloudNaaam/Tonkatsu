@@ -55,9 +55,11 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
 <br>
 <br>
+<br>
 3. 기술 스택
 <br>
 <img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
+<br>
 <br>
 <br>
 4. 주요 기능
@@ -73,9 +75,11 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 사용자가 채팅에 URL을 올림 -> URL은 디스코드 봇과 연동된 모델이 분류 -> 정상/악성 분류 -> 악성이면 다시 4가지로 분류 -> 기타 정보까지 함께 결과 채팅에 올려줌
 <br>
 <br>
+<br>
 5. 시연 장면
 <br>
-[!(https://youtu.be/gLWFPLfxF_w)]
+![Image](https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84)
+<br>
 <br>
 <br>
 6. 개선 사항
