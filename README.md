@@ -32,4 +32,7 @@
 <br>
 <br>
 3. 기술 스택
-<img src="https://github.com/user-attachments/assets/ff0693ba-bdd3-46e6-bfe6-dadd5933b7a0"/>
+<br>
+<img src="https://github.com/user-attachments/assets/ff0693ba-bdd3-46e6-bfe6-dadd5933b7a0" width="500" height="400"/>
+<br>
+
