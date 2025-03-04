@@ -22,6 +22,12 @@
 
 
 
+
+
+
+
+
+
 2. 전체 파이프라인
 
 <img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
