@@ -3,7 +3,7 @@
 ## 목차
 
 > 1. [Introduction](#introduction)
->   - 프로젝트 설명
+>    
 >   - 팀원 소개
 >
 > 2. [Pipeline](#pipeline)
@@ -27,9 +27,6 @@
 <br>
 
 # Introduction
-
-<br>
-- 프로젝트 설명
 <br>
 KISIA에서 주최한 AI보안 기술 개발 네트워크반 교육에서 진행하는 프로젝트입니다.
 <br>
