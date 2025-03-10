@@ -2,7 +2,7 @@
 ==================================
 ## 목차
 
-> [Introduction](#Introduction)
+> [Introduction](#introduction)
 >   - 프로젝트 설명
 >   - 팀원 소개
 >
@@ -22,7 +22,7 @@
 > [Improvement](#7. 개선 사항)
 <br>
 <br>
-(#Introduction)
+#introduction
 <br>
 - 프로젝트 설명
 <br>
