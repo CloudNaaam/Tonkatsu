@@ -86,6 +86,7 @@
 ><img src="https://github.com/user-attachments/assets/94e40381-8369-4d8b-b794-ed5ecc70ed9d" width="200" height="200"/>
 >
 > 프로젝트의 시작부터 끝까지 다양한 Feature를 추출하였습니다.
+>
 > Feature 간 상관관계 및 SHAP value를 비교하여 아래 최종 Feature를 추출하였습니다.
 >
 <br>
