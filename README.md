@@ -26,7 +26,7 @@
 <br>
 <br>
 
-# 1. Introduction
+# 1. # Introduction
 
 <br>
 - 프로젝트 설명
@@ -57,7 +57,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-2. # Pipeline
+# 2. # Pipeline
 
 <br>
 <img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
@@ -65,7 +65,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-3. # Skill
+# 3. # Skill
    
 <br>
 <img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
