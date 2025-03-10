@@ -110,11 +110,13 @@
 
 >
 ### 정상 URL 탐지 시
+><img src="https://github.com/user-attachments/assets/cd60b71c-fde4-4af5-82bc-5e602bfcd428"/>
 >
->
+> 탐지한 URL이 정상 URL일 경우 결과 및 WHOIS API를 이용한 URL 정보를 제공합니다.
 ### 악성 URL 탐지 시
+><img src="https://github.com/user-attachments/assets/859c2c59-df89-450d-834d-72c604e8cc27"/>
 >
-
+> 탐지한 URL이 악성 URL일 경우 해당 URL을 **스팸, 위/변조, 피싱, 악성코드 포함** 사이트로 분류하여 결과 및  WHOIS API를 이용한 URL 정보를 제공합니다.  
 <br>
 <br>
 
