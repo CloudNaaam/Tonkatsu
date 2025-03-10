@@ -61,7 +61,6 @@
 
 >
 ><img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
-
 <br>
 <br>
 
@@ -91,17 +90,9 @@
 |        **URL_has_file**       |         **use_of_IP**         |          **entropy**          |       **dom_ALEXA_rank**      |                               |
 |  `URL 속 파일 확장자`<br>`포함 여부` | `도메인 속 IP`<br>`포함 여부` |   `URL 문자열의`<br>`엔트로피 값 추출`   |    `도메인의 ALEXA`<br>`순위 유무`   |                               |
 
-<br>
-<br>
 
-
-# Function
-
-<br>
-- 모델
->
 ### 정확도 분석
->
+
 
 |      학습 모델      | 정확도<br>Accuracy |
 |:-------------------:|:----------------------:|
@@ -113,25 +104,31 @@
 
 <br>
 <br>
-- 디스코드
-<br>
-사용자가 채팅에 URL을 올림 -> URL은 디스코드 봇과 연동된 모델이 분류 -> 정상/악성 분류 -> 악성이면 다시 4가지로 분류 -> 기타 정보까지 함께 결과 채팅에 올려줌
-<br>
+
+
+# Function
+
+>
+### 정상 URL 탐지 시
+>
+>
+### 악성 URL 탐지 시
+>
+
 <br>
 <br>
 
 # Preview
 
 <br>
-<img src="https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84"/>
-<br>
+><img src="https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84"/>
 <br>
 <br>
 
 # Improvement
 
-- 정확도 개선을 위해 다양한 데이터셋 탐색
-- 오탐, 미탐을 줄이기 위한 Feature 추출
-- WHOIS 외 더 많은 정보 획득 가능한 API 탐색
-- 추가적인 보안 기능 방안 연구
+>정확도 개선을 위해 다양한 데이터셋 탐색
+>오탐, 미탐을 줄이기 위한 Feature 추출
+>WHOIS 외 더 많은 정보 획득 가능한 API 탐색
+>추가적인 보안 기능 방안 연구
 
