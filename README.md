@@ -26,7 +26,7 @@
 <br>
 <br>
 
-1. # Introduction
+# 1. Introduction
 
 <br>
 - 프로젝트 설명
