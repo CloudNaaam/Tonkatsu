@@ -4,7 +4,7 @@
 
 > 1. [Introduction](#introduction)
 >    
->   - 팀원 소개
+>   * 팀원 소개
 >
 > 2. [Pipeline](#pipeline)
 > 
@@ -12,13 +12,13 @@
 > 
 > 4. [Model](#model)
 >
->   - Feature Engineering
->   - 정확도 분석
+>   * Feature Engineering
+>   * 정확도 분석
 >  
 > 5. [Function](#function)
->  - 디코봇
->       - 정상 돌렸을 때
->       - 악성 돌렸을 때
+>
+>   * 정상 돌렸을 때
+>   * 악성 돌렸을 때
 >
 > 6. [Preview](#preview)
 > 
@@ -78,7 +78,7 @@
 <br>
 
 # Model
-
+>
 >
 ### Feature Engineering
 >
@@ -87,6 +87,7 @@
 >
 > 프로젝트의 시작부터 끝까지 다양한 Feature를 추출하였습니다.
 > Feature 간 상관관계 및 SHAP value를 비교하여 아래 최종 Feature를 추출하였습니다.
+>
 <br>
 <br>
 
@@ -100,7 +101,7 @@
 
 
 ### 정확도 분석
-
+>
 >
 |      학습 모델      | 정확도<br>Accuracy |
 |:-------------------:|:----------------------:|
@@ -111,12 +112,12 @@
 | **_Random Forest_** |      **_91.63%_**      |
 >
 > 위 Feature를 사용하여 모델들을 학습시키고, 각 모델들의 정확도를 비교한 결과 **Random Forest**가 가장 높은 정확도를 보여 해당 모델로 최종 선택하였습니다.
+>
 <br>
 <br>
 
 
 # Function
-
 >
 ### 정상 URL 탐지 시
 ><img src="https://github.com/user-attachments/assets/cd60b71c-fde4-4af5-82bc-5e602bfcd428"/>
@@ -130,18 +131,23 @@
 <br>
 
 # Preview
-
-<br>
+>
 ><img src="https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84"/>
 <br>
 <br>
 
 # Improvement
-
+>
 > 정확도 개선을 위해 다양한 데이터셋 탐색
+> 
 > 오탐, 미탐을 줄이기 위한 Feature 추출
+> 
 > WHOIS 외 더 많은 정보 획득 가능한 API 탐색
+>
 > 추가적인 보안 기능 방안 연구
+>
+<br>
+<br>
 
 ### 데이터셋 출처
 >
