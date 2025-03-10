@@ -5,19 +5,19 @@
 > [Introduction](#1. 프로젝트 소개)
 >   - 프로젝트 설명
 >   - 팀원 소개
-
+>
 > [Pipeline](#2. 전체 파이프라인)
 > [Skills](#3. 기술 스택)
 > [Model](#4. 모델 선정)
-
+>
 >   - Feature Engineering
 >   - 정확도 분석
-  
+>  
 > [Functions](#5. 주요 기능)
 >  - 디코봇
 >       - 정상 돌렸을 때
 >       - 악성 돌렸을 때
-   
+>
 > [Preview](#6. 시연 장면)
 > [Improvement](#7. 개선 사항)
 <br>
