@@ -1,4 +1,4 @@
-제돈햄칼 (제육돈까스햄버거칼국수)
+제돈햄칼 bot
 ==================================
 ## 목차
 
@@ -6,20 +6,20 @@
 >   - 프로젝트 설명
 >   - 팀원 소개
 >
-> [Pipeline](#2. 전체 파이프라인)
-> [Skills](#3. 기술 스택)
-> [Model](#4. 모델 선정)
+> [Pipeline](#pipeline)
+> [Skill](#skill)
+> [Model](#model)
 >
 >   - Feature Engineering
 >   - 정확도 분석
 >  
-> [Functions](#5. 주요 기능)
+> [Function](#function)
 >  - 디코봇
 >       - 정상 돌렸을 때
 >       - 악성 돌렸을 때
 >
-> [Preview](#6. 시연 장면)
-> [Improvement](#7. 개선 사항)
+> [Preview](#preview)
+> [Improvement](#improvement)
 <br>
 <br>
 
@@ -53,19 +53,25 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 
 <br>
 <br>
-2. 전체 파이프라인
+
+# Pipeline
+
 <br>
 <img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
 <br>
 <br>
 <br>
-3. 기술 스택
+
+# Skillss
+   
 <br>
 <img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
 <br>
 <br>
 <br>
-4. 모델 선정
+
+# Model
+
 <br>
 - Feature Engineering
 <img src="https://github.com/user-attachments/assets/da7ce42a-4605-49af-9d5e-1a78a554e30d" width="200" height="200"/>
@@ -84,7 +90,9 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 <br>
-5. 주요 기능
+
+# Function
+
 <br>
 - 모델
 <br>
@@ -107,13 +115,17 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 <br>
-5. 시연 장면
+
+# Preview
+
 <br>
 <img src="https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84"/>
 <br>
 <br>
 <br>
-6. 개선 사항
+
+# Improvement
+
 - 정확도 개선을 위해 다양한 데이터셋 탐색
 - 오탐, 미탐을 줄이기 위한 Feature 추출
 - WHOIS 외 더 많은 정보 획득 가능한 API 탐색
