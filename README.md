@@ -62,17 +62,24 @@
 >
 ><img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
 
+<br>
+<br>
+
 # Skill
    
 >
 ><img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
 
+<br>
+<br>
+
 # Model
 
-<br>
-- Feature Engineering
-<img src="https://github.com/user-attachments/assets/da7ce42a-4605-49af-9d5e-1a78a554e30d" width="200" height="200"/>
-<img src="https://github.com/user-attachments/assets/94e40381-8369-4d8b-b794-ed5ecc70ed9d" width="200" height="200"/>
+>
+### Feature Engineering
+>
+><img src="https://github.com/user-attachments/assets/da7ce42a-4605-49af-9d5e-1a78a554e30d" width="200" height="200"/>
+><img src="https://github.com/user-attachments/assets/94e40381-8369-4d8b-b794-ed5ecc70ed9d" width="200" height="200"/>
 <br>
 <br>
 
@@ -86,15 +93,15 @@
 
 <br>
 <br>
-<br>
+
 
 # Function
 
 <br>
 - 모델
-<br>
-* 학습 모델 후보
-<br>
+>
+### 정확도 분석
+>
 
 |      학습 모델      | 정확도<br>Accuracy |
 |:-------------------:|:----------------------:|
