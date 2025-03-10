@@ -2,31 +2,31 @@
 ==================================
 ## 목차
 
-> 1. [Introduction](#introduction)
+> 1. [프로젝트 소개](#프로젝트-소개)
 >    
 >   * 팀원 소개
 >
-> 2. [Pipeline](#pipeline)
+> 2. [전체 파이프라인](#전체-파이프라인)
 > 
-> 3. [Skill](#skill)
+> 3. [기술 스택](#기술-스택)
 > 
-> 4. [Model](#model)
+> 4. [모댈](#모델)
 >
 >   * Feature Engineering
 >   * 정확도 분석
 >  
-> 5. [Function](#function)
+> 5. [주요 기능](#주요-기능)
 >
 >   * 정상 돌렸을 때
 >   * 악성 돌렸을 때
 >
-> 6. [Preview](#preview)
+> 6. [시연 영상](#시연-영상)
 > 
-> 7. [Improvement](#improvement)
+> 7. [개선 사항](#개선-사항항)
 <br>
 <br>
 
-# Introduction
+# 프로젝트 소개
 
 >KISIA에서 주최한 AI보안 기술 개발 네트워크반 교육에서 진행하는 프로젝트입니다.
 >
@@ -57,7 +57,7 @@
 <br>
 <br>
 
-# Pipeline
+# 전체 파이프라인
 
 >
 ><img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
@@ -69,7 +69,7 @@
 <br>
 <br>
 
-# Skill
+# 기술 스택
    
 >
 ><img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
@@ -77,7 +77,7 @@
 <br>
 <br>
 
-# Model
+# 모델
 >
 >
 ### Feature Engineering
@@ -117,7 +117,7 @@
 <br>
 
 
-# Function
+# 주요 기능
 >
 ### 정상 URL 탐지 시
 ><img src="https://github.com/user-attachments/assets/cd60b71c-fde4-4af5-82bc-5e602bfcd428"/>
@@ -130,13 +130,13 @@
 <br>
 <br>
 
-# Preview
+# 시연 영상
 >
 ><img src="https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84"/>
 <br>
 <br>
 
-# Improvement
+# 개선 사항
 >
 > 정확도 개선을 위해 다양한 데이터셋 탐색
 > 
