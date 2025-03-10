@@ -61,6 +61,11 @@
 
 >
 ><img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
+>
+> 1. Heroku 및 Github를 이용하여 **제돈햄칼 봇**을 배포하였습니다.
+> 2. **제돈햄칼 봇**은 디스코드 사용자들의 채팅 속 URL의 유무를 탐지합니다.
+> 3. URL을 탐지한 경우, 해당 URL의 정상/악성 여부를 분류합니다.
+> 4. 분류 결과와 WHOIS API를 이용한 기타 정보를 사용자에게 제공합니다.
 <br>
 <br>
 
@@ -79,6 +84,9 @@
 >
 ><img src="https://github.com/user-attachments/assets/da7ce42a-4605-49af-9d5e-1a78a554e30d" width="200" height="200"/>
 ><img src="https://github.com/user-attachments/assets/94e40381-8369-4d8b-b794-ed5ecc70ed9d" width="200" height="200"/>
+>
+> 프로젝트의 시작부터 끝까지 다양한 Feature를 추출하였습니다.
+> Feature 간 상관관계 및 SHAP value를 비교하여 아래 최종 Feature를 추출하였습니다.
 <br>
 <br>
 
@@ -93,7 +101,7 @@
 
 ### 정확도 분석
 
-
+>
 |      학습 모델      | 정확도<br>Accuracy |
 |:-------------------:|:----------------------:|
 |         LGBM        |         88.47%         |
@@ -101,7 +109,8 @@
 |         SVM         |         89.63%         |
 |    Decision Tree    |         90.23%         |
 | **_Random Forest_** |      **_91.63%_**      |
-
+>
+> 위 Feature를 사용하여 모델들을 학습시키고, 각 모델들의 정확도를 비교한 결과 **Random Forest**가 가장 높은 정확도를 보여 해당 모델로 최종 선택하였습니다.
 <br>
 <br>
 
@@ -129,8 +138,11 @@
 
 # Improvement
 
->정확도 개선을 위해 다양한 데이터셋 탐색
->오탐, 미탐을 줄이기 위한 Feature 추출
->WHOIS 외 더 많은 정보 획득 가능한 API 탐색
->추가적인 보안 기능 방안 연구
+> 정확도 개선을 위해 다양한 데이터셋 탐색
+> 오탐, 미탐을 줄이기 위한 Feature 추출
+> WHOIS 외 더 많은 정보 획득 가능한 API 탐색
+> 추가적인 보안 기능 방안 연구
 
+### 데이터셋 출처
+>
+> <a href="https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset"/>
