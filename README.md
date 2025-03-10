@@ -42,8 +42,6 @@
 >
 >디스코드 봇과의 연계성 및 기능 수행 최적화를 위해 Heroku 를 이용해 배포하였습니다.
 <br>
-<br>
-<br>
 
 ### 팀원 소개
 
@@ -61,19 +59,13 @@
 
 # Pipeline
 
-<br>
-<img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
-<br>
-<br>
-<br>
+>
+><img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
 
 # Skill
    
-<br>
-<img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
-<br>
-<br>
-<br>
+>
+><img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
 
 # Model
 
