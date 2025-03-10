@@ -7,7 +7,9 @@
 >   - 팀원 소개
 >
 > [Pipeline](#pipeline)
+> 
 > [Skill](#skill)
+> 
 > [Model](#model)
 >
 >   - Feature Engineering
@@ -19,6 +21,7 @@
 >       - 악성 돌렸을 때
 >
 > [Preview](#preview)
+> 
 > [Improvement](#improvement)
 <br>
 <br>
@@ -62,7 +65,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-# Skillss
+# Skill
    
 <br>
 <img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
