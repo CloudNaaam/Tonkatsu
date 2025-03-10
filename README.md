@@ -26,7 +26,7 @@
 <br>
 <br>
 
-# 1. # Introduction
+# Introduction
 
 <br>
 - 프로젝트 설명
@@ -57,7 +57,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-# 2. # Pipeline
+# Pipeline
 
 <br>
 <img src="https://github.com/user-attachments/assets/7a25dca1-cace-4b46-bd9f-c58d62428ce3"/>
@@ -65,7 +65,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-# 3. # Skill
+# Skill
    
 <br>
 <img src="https://github.com/user-attachments/assets/7c54e3c0-afd0-4a6d-a892-d87f937b2046" width="500" height="400"/>
@@ -73,7 +73,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-4. # Model
+# Model
 
 <br>
 - Feature Engineering
@@ -94,7 +94,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-5. # Function
+# Function
 
 <br>
 - 모델
@@ -119,7 +119,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-6. # Preview
+# Preview
 
 <br>
 <img src="https://github.com/user-attachments/assets/25d2460a-c5cd-4b45-b7c9-8a44eaeaea84"/>
@@ -127,7 +127,7 @@ AI 모델은 문자열 기반으로 악성 URL 여부를 탐지하며, 악성일
 <br>
 <br>
 
-7. # Improvement
+# Improvement
 
 - 정확도 개선을 위해 다양한 데이터셋 탐색
 - 오탐, 미탐을 줄이기 위한 Feature 추출
