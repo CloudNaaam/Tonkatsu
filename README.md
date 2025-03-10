@@ -22,7 +22,7 @@
 > [Improvement](#7. 개선 사항)
 <br>
 <br>
-# introduction
+# Introduction
 <br>
 - 프로젝트 설명
 <br>
