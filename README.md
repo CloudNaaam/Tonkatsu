@@ -168,7 +168,7 @@
 >
 > <img src="https://github.com/user-attachments/assets/77b7125a-2d9f-4d6b-a5f0-9a60003f7a3c"/>
 >
-> <img src="https://github.com/user-attachments/assets/49d3ca7b-41d1-4886-af12-7e26d2abe318"/>
+> <img src="https://github.com/user-attachments/assets/49d3ca7b-41d1-4886-af12-7e26d2abe318" width=300 height=500/>
 
 <br>
 <br>
